@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        // new comment
+        // lets do this
         ?>
+        <div class="div"></div>
     </body>
 </html>
