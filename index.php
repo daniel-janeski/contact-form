@@ -29,7 +29,7 @@
 
         <div class="container">
 
-            <form class="form-contact" method="POST">
+            <form class="form-contact" method="POST"> 
                 
                 <h2 class="form-contact-heading text-center">Contact Us</h2>
 
