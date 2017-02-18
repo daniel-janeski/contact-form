@@ -1,0 +1,45 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+/* Custom Edits */
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+}
+
+.form-contact {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-contact .form-contact-heading {
+  margin-bottom: 10px;
+}
+
+.form-contact .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-contact .form-control:focus {
+  z-index: 2;
+}
+.form-group {
+    margin-bottom: 15px;
+}
